@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/power-of-largest-prime3452/1">Power of the Largest Prime Factor</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given a positive integer <strong>n</strong>, find if the largest prime factor of n has an exponent greater than <strong>1</strong> in its prime factorization. </span></p>
+<p><span style="font-size: 14pt;">Return <strong>true </strong>if its exponent is greater than 1; otherwise, return <strong>false</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> n = 36
+<strong>Output: </strong>true<br><strong>Explanation: </strong>The prime factorization of 36 is 2² × 3². The largest prime factor is 3, and its exponent is 2.<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> n = 13
+<strong>Output: </strong>false<br><strong>Explanation: </strong>The prime factorization of 13 is 13¹. The largest prime factor has exponent 1.<br></span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>9</sup>&nbsp;&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematics</code>&nbsp;<code>Prime Number</code>&nbsp;
