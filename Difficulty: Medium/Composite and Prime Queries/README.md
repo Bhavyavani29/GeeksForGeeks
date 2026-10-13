@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/composite-and-prime0359/1">Composite and Prime Queries</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given two integers <strong>l</strong> and<strong> r,</strong> find the difference between the number of composites and the number of primes between the range l and r (both inclusive).<br><br><strong>Examples:</strong></span></p><pre><span style="font-size: 18px;"><strong>Input: </strong>l = 4, r = 6
+<strong>Output: </strong>1
+<strong>Explanation: </strong>Composite no. are 4 and 6. And prime is 5. So number of composites is 2 and number if primes is 1. <br>Therefore answer for this test case is 2-1 = 1.</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>l = 1, r = 5
+<strong>Output: </strong>-2
+<strong>Explanation: </strong>Only one composite 4 and 3 primes 2, 3 and 5</span></pre><pre><span style="font-size: 18px;"><strong>Input: </strong>l = 4, r = 4
+<strong>Output: </strong>1
+<strong>Explanation: </strong>In range [4, 4] number of primes is 0 and number of composites is 1. <br></span><span style="font-size: 14pt;">Therefore answer for this test is 1.</span>&nbsp;</pre><p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ l ≤ r ≤ 10<sup>6</sup>&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Prime Number</code>&nbsp;<code>Arrays</code>&nbsp;<code>sieve</code>&nbsp;
