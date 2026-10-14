@@ -1,0 +1,6 @@
+class Solution {
+    static int mindGame(int K) {
+        // code here
+        return K/2;
+    }
+};
