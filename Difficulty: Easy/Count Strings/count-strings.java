@@ -1,0 +1,7 @@
+class Solution {
+    long countStr(int n) {
+        // code here
+        long p = (long)Math.pow(n,3);
+        return (p+3*n+2)/2;
+    }
+}
