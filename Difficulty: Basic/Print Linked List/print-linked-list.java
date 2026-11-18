@@ -1,21 +1,22 @@
 /*
 class Node {
-    int data;
-    Node next;
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}*/
+	int data;
+	Node next;
+	
+	Node(int val) {
+		data = val;
+		next = null;
+	}
+}
+*/
 
 class Solution {
-    public ArrayList<Integer> printList(Node head) {
-        // code here
-        ArrayList<Integer> result = new ArrayList<>();
-        while(head != null){
-            result.add(head.data);
-            head = head.next;
-        }
-        return result;
-    }
+	void printList(Node head) {
+		// code here
+		Node temp = head;
+		while (temp != null) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+	}
 }
